@@ -6,6 +6,7 @@ import { Info } from './components/information/information'
 import "./styles/home.scss"
 import { EmailIcon } from './components/icons/email-icon'
 import { SocialBtns } from './components/social-btns/social-btns'
+import { Buttons } from './components/contact/contact'
 
 export default function Home() {
   return (
@@ -13,16 +14,7 @@ export default function Home() {
         <Header/>
         <Experience/>
         <Info/>
-          
-
-
-          <div className="buttons">
-            <SocialBtns/>
-            <a className="btn-primary" href="mailto:caiocesar15790@gmail.com">
-              contact me
-              <EmailIcon/>
-            </a>
-          </div>
+        <Buttons/>
     </main>
   )
 }
